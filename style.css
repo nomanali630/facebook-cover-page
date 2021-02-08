@@ -5,10 +5,26 @@ body{
     background-color: azure;
   
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 1250px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(81, 105, 97);
+}
+
+.maal{
+ margin-top: 20px;
+}
 
 
-
-
+/* 
 div{
     width: 380px;
     height: 200px;
@@ -17,9 +33,13 @@ div{
     right: auto;
     background-color: brown;
     padding: 10px 2px 0px 10px;
+    
    
 }
 .new{
     position: absolute;
     left:326px;
 }
+.mid{
+    margin: 0 auto;
+} */
